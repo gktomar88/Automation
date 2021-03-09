@@ -16,3 +16,8 @@ class TestDemo3(BaseClass):
         demo = Demo3(self.driver)
         self.log.info("Scrolling test")
         demo.MouseHover()
+
+    def test_Scroll(self):
+        demo = Demo3(self.driver)
+        self.log.info("Scrolling test")
+        demo.MouseHover()
